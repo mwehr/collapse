@@ -50,7 +50,9 @@
 						<core:icon identifier="actions-menu-alternative" />
 					</button>
 				</div>
-				<c:collapse contentElementId="{item.record.uid}" row="{item.record}" type="{item}" />
+				<f:format.raw>
+					<c:collapse contentElementId="{item.record.uid}" row="{item.record}" type="{item}" />
+				</f:format.raw>
 			</div>
 		</f:if>
 	</div>

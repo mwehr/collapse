@@ -14,8 +14,6 @@ use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 class CollapseViewHelper extends AbstractViewHelper
 {
 
-    protected $escapeOutput = false;
-
     public function initializeArguments(): void
     {
         parent::initializeArguments();
