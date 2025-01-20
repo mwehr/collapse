@@ -11,6 +11,6 @@ final class ModifyPageLayoutContentEventListener
     public function __invoke(ModifyPageLayoutContentEvent $event): void
     {
         GeneralUtility::makeInstance(PageRenderer::class)
-            ->loadRequireJsModule('TYPO3/CMS/Collapse/PageModuleCollapse');
+            ->loadJavaScriptModule('@b13/collapse/PageModuleCollapse.js');
     }
 }
